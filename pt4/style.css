@@ -1,0 +1,49 @@
+
+div {
+    height: 100px;
+    width: 900px;
+    text-align: center;
+    box-sizing: border-box;
+    background: orange;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.cs {
+    height: 200px;
+    padding-top:100px;
+}
+.st1{
+    height: 200px;
+}
+.s1 {
+    padding: 100px;
+    width: 450px;
+    float: left;
+    background: blueviolet;
+}
+.s2 {
+    padding: 100px;
+    width: 450px;
+    float: left;
+    background: green;
+}
+.s3 {
+    height: 50px;
+    width: 300px;
+    padding: 50px;
+    float: left;
+    background: red;
+}
+.s4 {
+    height: 50px;
+    width: 300px;
+    padding: 50px;
+    float: left;
+    background: yellow;
+}
+.s5 {
+    height: 50px;
+    width: 300px;
+    padding: 50px;
+    float: left;
+    background: purple;
+}

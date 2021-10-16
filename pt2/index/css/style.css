@@ -1,0 +1,20 @@
+table {
+    background: linear-gradient(90deg, grey, rgb(189, 189, 189));
+    border-collapse: collapse;
+    
+}
+td, th {
+    border: 2px solid black;
+    height: 45px;
+    width: 75px;
+    text-align: center;
+}
+td:hover {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: white;
+}
+img {
+    height: 45px;
+    width: 45px;
+}

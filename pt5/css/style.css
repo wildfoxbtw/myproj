@@ -1,0 +1,66 @@
+
+.head {
+    display: flex;
+}
+h1{
+   display: block;
+   margin: 20px auto;
+   font-family: 'Noto Sans Mono', monospace;
+}
+.block1 {
+    background-color: rgb(251, 203, 158);
+    height: 200px;
+    width: 1000px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+    color: rgba(0, 0, 0, 0.7);
+}
+i {
+    margin: 5px;
+}
+.block1:hover {
+    width: 90%;
+}
+li {
+    transition: 0.3s linear;
+    font-family: 'Noto Sans Mono', monospace;
+}
+li:hover {
+    font-size: 30px;
+    color: black;
+}
+.block2 {
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(251, 203, 158);
+    height: 100px;
+    width: 1000px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    transition: .5s linear;
+    animation: anim 2s infinite alternate-reverse;
+}
+.block3 {
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+@keyframes anim{
+    0%{
+        transform: skewX(30deg);
+    }
+    100%{
+        transform: skewX(-30deg);
+    }
+}
+
