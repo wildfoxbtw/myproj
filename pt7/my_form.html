@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_BLVPp2xPeDL2rKYpQpsnK');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_gxplcuj', 'template_2oepbq9', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="body">
+    <div class="form">
+        <h1>Let's work in a team!</h1>
+        <form action="" id="contact-form">
+            <input type="hidden" name="contact_number">
+            <p>
+                <label for="">Your name:</label>
+                <input type="text" name="username" required>
+            </p>
+            <fieldset>
+                <legend>Your gender:</legend>
+                <select name="gender" id="">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Don't want to say</option>
+                </select>
+            </fieldset>
+            <p>
+                <label for="">Your email:</label>
+                <input type="text" name="email" required>
+            </p>
+            <p>
+                <label for="">Your phone number:</label>
+                <input type="tel" name="contact-number">
+            </p>
+            <fieldset>
+                <legend>We'll send you info through</legend>
+                <p><input type="checkbox" name="contact-info">Telegram</p>
+                <p><input type="checkbox" name="contact-info">Messenger</p>
+                <p><input type="checkbox" name="contact-info">WhatsApp</p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+    </div>    
+</body>
+</html>
