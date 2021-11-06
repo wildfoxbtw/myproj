@@ -1,14 +1,18 @@
-
+* {
+    font-family: 'Noto Sans Mono', monospace;
+}
 .head {
     display: flex;
+}
+body {
+    background-color: rgb(94, 177, 245);
 }
 h1{
    display: block;
    margin: 20px auto;
-   font-family: 'Noto Sans Mono', monospace;
 }
 .block1 {
-    background-color: rgb(251, 203, 158);
+    background-color: rgb(66, 119, 163);
     height: 200px;
     width: 1000px;
     padding: 15px;
@@ -34,7 +38,7 @@ li:hover {
 .block2 {
     margin: auto;
     margin-top: 20px;
-    background-color: rgb(251, 203, 158);
+    background-color: rgb(66, 119, 163);
     height: 100px;
     width: 1000px;
     padding: 15px;
@@ -54,6 +58,36 @@ li:hover {
     width: 90%;
     margin: auto;
     margin-top: 20px;
+    background: no-repeat url(img/space.jpg);
+    border-radius: 20px;
+}
+.block4 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.block5-local {
+    height: 200px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+.block5-local *{
+    margin: 0 10px;
+}
+.block5-image {
+    position: relative;
+    width: 50%;
+}
+.block5-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 @keyframes anim{
     0%{

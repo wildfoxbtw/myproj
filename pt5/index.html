@@ -27,8 +27,34 @@
         <div class="block"></div>
         <div class="block"></div>
     </div>
-    <div class="block3">
-        <source media="(min-width:1320px)">
+    <div class="block3"></div>
+    <div class="block4">
+        <picture>
+            <source srcset="./big.png" type="image/png" media="(min-width:1300px)">
+            <source srcset="./medium.jpg" type="image/jpg" media="(min-width:800px)">
+            <source srcset="./little.jpg" type="image/jpg" media="(max-width:800px)">
+            <img src="./big.png" alt="">
+        </picture>
+    </div>
+    <div class="block5">
+        <div class="block5-local">
+            <div class="block5-image">
+                <img src="medium.jpg" alt="Marvel">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio porro tempore soluta dicta temporibus blanditiis. Quo provident quae, fugit hic quos tempora, maiores voluptate commodi vitae cumque, neque totam magnam.</p>
+        </div>
+        <div class="block5-local">
+            <div class="block5-image">
+               <img src="little.jpg" alt="dc">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio porro tempore soluta dicta temporibus blanditiis. Quo provident quae, fugit hic quos tempora, maiores voluptate commodi vitae cumque, neque totam magnam.</p>
+        </div>
+        <div class="block5-local">
+            <div class="block5-image">
+                <img src="big.png" alt="starwars">
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio porro tempore soluta dicta temporibus blanditiis. Quo provident quae, fugit hic quos tempora, maiores voluptate commodi vitae cumque, neque totam magnam.</p>
+        </div>
     </div>
 </body>
 </html>
