@@ -1,0 +1,46 @@
+.list li:nth-child(5){
+    color: blueviolet;
+}
+
+.list li:nth-child(odd){
+    font-weight: bold;
+}
+
+.list li:nth-child(even){
+    font-style: italic;
+}
+
+.psel::first-line{
+    color: chartreuse;
+}
+
+.psel::first-letter{
+    color: darkgreen;
+    font-size: 50px;
+}
+
+.list li::before{
+    content: "<";
+}
+
+.list li::after{
+    content: ">";
+}
+
+.list li::before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(207, 235, 85);
+    border-radius: 50%;
+}
+
+.list li:hover{
+    background-color: #fff;
+}
+
+.container p:first-of-type:hover{
+    color: blueviolet;
+}

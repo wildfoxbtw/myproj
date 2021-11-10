@@ -1,0 +1,61 @@
+* {
+    font-family: 'Azeret Mono', monospace;
+}
+
+.top {
+    padding: 10px;
+    margin: 30px auto;
+    background: #fff;
+    width: 80%;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-weight: 200;
+    text-align: center;
+}
+
+body {
+    background: rgb(255, 95, 32);
+}
+
+.proj {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(235, 83, 23);
+    border-radius: 20px;
+}
+
+.pt {
+    margin: 20px;
+    background: #fff;
+    height: 200px;
+    width: 320px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px -1px #000000; 
+    box-shadow: 5px 5px 10px -1px #000000;
+}
+
+.line {
+    background: rgb(102, 102, 102);
+    height: 2px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+a {
+    color: #000;
+    margin: 20px auto;
+}
