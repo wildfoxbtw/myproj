@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background: rgb(95, 60, 60);
+}
+.menu li{
+    position: relative;
+}
+
+.menu{
+    background-color: rgb(255, 94, 30);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    background-color: rgb(255, 94, 30);
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-link{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(228, 228, 228);
+    bottom: 5px;
+}
+
+.menu-list{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.menu-list>li{
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub-menu-list{
+    position: absolute;
+    top: 25px;
+    padding-top: 20px;
+    left: 0;
+    width: 130px;
+    display: none;
+}
+
+.sub-menu-list>li{
+    background-color: rgb(255, 94, 30);
+    color: #fff;
+    padding: 5px;
+}
+
+.menu-list>li:hover .sub-menu-list{
+    display: block;
+}
+
+.sub-sub-menu-list{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100px;
+    visibility: hidden;
+}
+
+.sub-sub-menu-list>li{
+    background-color: rgb(255, 94, 30);
+    color: #fff;
+    padding: 5px;
+}
+
+.sub-menu-list>li:hover .sub-sub-menu-list{
+    visibility: inherit;
+}
+
+.trisub-menu-list{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100px;
+    visibility: hidden;
+}
+
+.trisub-menu-list>li{
+    background-color: rgb(255, 94, 30);
+    color: #fff;
+    padding: 5px;
+}
+
+.sub-sub-menu-list>li:hover .trisub-menu-list{
+    visibility: inherit;
+}
+
+.sub-menu-list li:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.center{
+    color: white;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+h1{
+    font-weight: 700;
+}
