@@ -1,0 +1,20 @@
+.container{
+    margin-top: 15vh;
+}
+
+.posbg{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.card{
+    width: 300px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.card-body{
+    position: absolute;
+    top: 220px;
+}

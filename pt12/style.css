@@ -1,0 +1,13 @@
+.sfgh{
+    background: url(./mountains.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.sec{
+    color: #fff;
+}
+
+.bgh{
+    background: solid rgba(0, 0, 0, 0.5);
+}
