@@ -132,7 +132,7 @@
 .header-menu>.stripe{
     width: 100%;
     margin: 5px 0;
-    height: 1px;
+    height: 2px;
     background-color: #fff;
     transition: .1s linear;
 }
@@ -146,17 +146,116 @@
 }
 
 .top-container{
-    width: 100vh;
-    height: 500px;
-    background: url(./maxresdefault\ \(1\)\ 2.png) no-repeat center;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(./maxresdefault\ \(1\)\ 2.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 195px;
+}
+
+.top-container-menu{
+    width: 35%;
 }
 
 .top-container-menu>h1{
+    margin: 10px 0;
     text-transform: uppercase;
     color: #fff;
 }
 
-.top-container-menu>h3{
-    border: 1px solid white;
+.top-container-menu-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 250px;
+    border: 1px solid rgb(255, 255, 255);
     color: #fff;
+}
+
+.top-container-menu-1>h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-container-menu-2{
+    margin: 40px 0;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 153, 153, 0.39);
+    border-radius: 2px;
+}
+
+.top-container-menu-2>p{
+    font-weight: bold;
+    color: #fff;
+}
+
+.top-container-menu-circles{
+    padding: 10px 0;
+    display: flex;
+    justify-content: left;
+    margin: 30px 0;
+}
+
+.top-container-menu-circles>i{
+    font-size: 7px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.undertop-container{
+    height: 250px;
+    background: rgb(224, 224, 224);
+    display: flex;
+    justify-content: start;
+}
+
+.undertop-column-1{
+    width: 30%;
+}
+
+.undertop-column-1>h1{
+    font-weight: bold;
+}
+
+.undertop-column-1>p{
+    color: #555;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.column-1-buttons{
+    display: flex;
+}
+
+.column-1-button{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 2px solid rgb(165, 165, 165);
+    padding: 0 50px;
+    border-radius: 3px;
+}
+
+.grey{
+    color: #fff;
+    background-color: rgb(165, 165, 165);
+}
+
+.undertop-2-menu{
+    display: flex;
+    align-items: center;
+}
+
+.undertop-2-circle{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    border-style: dashed;
 }
