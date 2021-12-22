@@ -297,3 +297,75 @@
     padding-left: 150px;
 }
 
+.hotel-inner{
+    width: 460px;
+    height: 450px;
+}
+
+.chornogor{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(./1.png) no-repeat center;
+    background-size: cover;
+}
+
+.rovin{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(./2.png) no-repeat center;
+    background-size: cover;
+}
+
+.boka{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(./3.png) no-repeat center;
+    background-size: cover;
+}
+
+.hotel-name{
+    background-color: #00000059;
+    width: 195px;
+    height: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rating-hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.stars>i{
+    font-size: 18px;
+    color: #FFD600;
+    margin: 5px;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.rating-hotel>p{
+    width: 249px;
+    height: 34px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 170% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.hotels-inner{
+    display: flex;
+    justify-content: space-between;
+}
