@@ -1,0 +1,36 @@
+.container{
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid #000000;
+}
+
+.arrows{
+    width: 80px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.control{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-top, .btn-bottom{
+    height: 20px;
+    width: 80px;
+}
+
+.btn-right, .btn-left{
+    height: 20px;
+    width: 40px;
+}
+
